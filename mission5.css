@@ -140,6 +140,10 @@ body{ font-size:62.5%;}
 {
     margin-left: 3.5%;
 }
+.menu_3 i
+{
+    right:2%;
+}
 .menu_3:hover .menu_m3
 {
     display: block;
