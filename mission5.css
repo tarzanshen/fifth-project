@@ -52,7 +52,7 @@ body{ font-size:62.5%;}
 .menu{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     color: #afbac0;
     line-height: 1.5;
     font-size: 18px;
@@ -60,6 +60,22 @@ body{ font-size:62.5%;}
     border-bottom: 1px solid #e1e5e7;
     padding-top: 9px;
     padding-bottom: 9px;
+    height: 25px;
+    white-space: nowrap;
+    position: relative;
+}
+.menu b
+{
+    position: absolute;
+    color: #e1e5e7;
+}
+.menu_1 b
+{
+    left: 31%;
+}
+.menu_2 b
+{
+    left: 61%;
 }
 .menu i{
     background-image: url(image/01.png);
@@ -68,24 +84,20 @@ body{ font-size:62.5%;}
     background-position: 25px 0px;
     margin-top: 9px;
     position: absolute;
-    margin-left: 5%;
-    
+    margin-top: 11px;
 }
 .menu li
 {
     list-style: none;
-    border-bottom: 1px solid #bababa;
-}
-.menu span
-{
-    float: left;
-}
-.menu_1 {
-    border-right: solid 1px #afbac0;
-    width: 28%;
-    margin-left:5%;
+    
 }
 
+.menu_1 i{
+    left: 26%;
+}
+.menu_2 i{
+    left: 57%;
+}
 .menu_m1
 {
     position: absolute;
@@ -118,8 +130,6 @@ body{ font-size:62.5%;}
     display: none;
 }
 .menu_2 {
-    border-right: solid 1px #afbac0;
-    width:28%;
     margin-left: 3.5%;
 }
 .menu_2:hover .menu_m2
@@ -128,7 +138,6 @@ body{ font-size:62.5%;}
 }
 .menu_3
 {
-    width: 35%;
     margin-left: 3.5%;
 }
 .menu_3:hover .menu_m3
