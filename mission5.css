@@ -67,7 +67,7 @@ body{ font-size:62.5%;}
     height: 9px;
     background-position: 25px 0px;
     margin-top: 9px;
-    float: left;
+    position: absolute;
     margin-left: 5%;
     
 }
@@ -154,6 +154,9 @@ body{ font-size:62.5%;}
 }
 .information_1 p{
     color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .information i
 {
@@ -165,7 +168,7 @@ body{ font-size:62.5%;}
 }
 .information_left
 {
-    width: 63%;
+    width: 59%;
     font-size: 16px;
     margin-left: 2.5%;
 }
@@ -184,8 +187,15 @@ body{ font-size:62.5%;}
     font-size: 20px;
     color: red;
     font-weight: bolder;
-    margin-top: 21px;
+    margin-top: 13px;
     margin-right: 2.5%;
+}
+.information_right b
+{
+    color: #55a8b3;
+    font-size: 28px;
+    position: relative;
+    top: 2px;
 }
 .footer
 {
