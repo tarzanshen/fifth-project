@@ -49,103 +49,136 @@ body{ font-size:62.5%;}
     margin-left: -6px;
     font-size: 18px;
 }
-.menu{
-    display: flex;
+.menu
+{
+    position: relative;
     width: 100%;
-    justify-content: space-around;
-    color: #afbac0;
-    line-height: 1.5;
+    height: 42px;
+    text-align: center;
+    list-style: none;
     font-size: 18px;
-    overflow: hidden;
     border-bottom: 1px solid #e1e5e7;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    height: 25px;
-    white-space: nowrap;
+    line-height: 2.5;
+    padding-left: 2%;
+    color: #b3bec4;
 }
-.menu b
+.menu ul
 {
+    list-style: none;
     position: absolute;
-    color: #e1e5e7;
+    background-color: white;
+    margin: 0;
 }
-.menu_1 b
+.menu i
 {
-    left: 31%;
-}
-.menu_2 b
-{
-    left: 61%;
-}
-.menu i{
     background-image: url(image/01.png);
     width: 15px;
     height: 9px;
     background-position: 25px 0px;
-    margin-top: 9px;
     position: absolute;
-    margin-top: 11px;
 }
-.menu li
+.menu_1 
 {
-    list-style: none;
-    
+    float: left;
+    width: 30%;
+    border-right: 1px solid #e1e5e7;
+    cursor: pointer;
 }
 
-.menu_1 i{
-    left: 26%;
-}
-.menu_2 i{
-    left: 57%;
-}
-.menu_m1
+.menu_01
 {
-    position: absolute;
-    width: 200px;
-    height: 100px;
+    display:none;
     z-index: 2;
-    background-color: white;
-    display: none;
-}
-.menu_1:hover .menu_m1
-{
-    display:block;
-}
-.menu_m2
-{
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    z-index: 2;
-    background-color: white;
-    display: none;
-}
-.menu_m3
-{
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    z-index: 2;
-    background-color: white;
-    display: none;
-}
-.menu_2 {
-    margin-left: 3.5%;
-}
-.menu_2:hover .menu_m2
+    width: 31.5%;
+    left:0;
+} 
+.menu_1:hover .menu_01
 {
     display: block;
 }
-.menu_3
+.menu_2:hover .menu_02
 {
-    margin-left: 3.5%;
+    display: block;
+}
+.menu_3:hover .menu_03
+{
+    display: block;
+}
+
+.menu_01 li:hover 
+{
+    box-shadow: 0px 0px 3px #bababa inset;
+}
+.menu_02 li:hover 
+{
+    box-shadow: 0px 0px 3px #bababa inset;
+}
+.menu_03 li:hover
+{
+    box-shadow: 0px 0px 3px #bababa inset;
+}
+.menu_1 i
+{
+    top: 42%;
+    left: 26%;
+}
+.menu_1 li
+{
+    border-bottom: 1px solid #e1e5e7;
+    cursor: pointer;
+    font-size: 14px;
+}
+.menu_2 li
+{
+    border-bottom: 1px solid #e1e5e7;
+    cursor: pointer;
+    font-size: 14px;
+}
+.menu_3 li
+{
+    border-bottom: 1px solid #e1e5e7;
+    cursor: pointer;
+    font-size: 14px;
+}
+.menu_2 
+{
+    float: left;
+    width: 30%;
+    border-right: 1px solid #e1e5e7;
+    cursor: pointer;
+}
+.menu_02
+{
+    display:none;
+    z-index: 2;
+    background: white;
+    width: 29.5%;
+} 
+.menu_2 i
+{
+    left: 56%;
+    top: 45%;
+}
+.menu_3 
+{
+    float: left;
+    width: 30%;
+    cursor: pointer;
+}
+.menu_03
+{
+    display:none;
+    z-index: 2;
+    width: 32%;
+} 
+.menu_03 li
+{
+text-align: center;
 }
 .menu_3 i
 {
-    right:2%;
-}
-.menu_3:hover .menu_m3
-{
-    display: block;
+    top: 45%;
+    right: 7%;
 }
 .information
 {
