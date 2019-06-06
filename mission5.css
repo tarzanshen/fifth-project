@@ -10,7 +10,6 @@ html{
 }
 .header
 {
-    width: 100%;
     background-color:#5fc0cd;
     overflow: hidden;
     display: flex; 
@@ -198,7 +197,6 @@ text-align: center;
 }
 .information_1
 {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     padding-top: 7px;
@@ -217,8 +215,9 @@ text-align: center;
     background-image: url(image/01.png);
     width: 29px;
     height: 26px;
-    transform:scale(0.8);
     float: left;
+    zoom: 0.8;
+    margin-right: 0.5%;
 }
 .information_left
 {
@@ -248,8 +247,6 @@ text-align: center;
 {
     color: #55a8b3;
     font-size: 28px;
-    position: relative;
-    top: 2px;
 }
 .footer
 {
@@ -261,7 +258,6 @@ text-align: center;
     position: fixed;
     bottom:0;
     background-color: white;
-    padding-bottom: 2%;
 }
 .footer i{
     background-image: url(image/01.png);
@@ -278,10 +274,6 @@ text-align: center;
 .footer_1 p{
     margin-left: 11px;
     color: #55a8b3;
-}
-.footer_1
-{
-    /*margin-left: 15%;*/
 }
 
 .icon_01
@@ -302,10 +294,7 @@ text-align: center;
     height: 43px;
     transform: scale(0.8);
 }
-.footer_3
-{
-    /*margin-right: 15%;*/
-}
+
 .footer_3 p
 {
     color:#b2b2b2; 
