@@ -5,9 +5,7 @@
 body{ font-size:62.5%;
     overflow-x:hidden;
 }
-html{
-    overflow-y: hidden;
-}
+
 .header
 {
     background-color:#5fc0cd;
@@ -64,9 +62,12 @@ html{
     list-style: none;
     font-size: 18px;
     border-bottom: 1px solid #e1e5e7;
-    line-height: 2.5;
-    padding-left: 2%;
     color: #b3bec4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 72px;
+    background-color: white;
 }
 .menu ul
 {
@@ -74,6 +75,9 @@ html{
     position: absolute;
     background-color: white;
     margin: 0;
+    width: 100%;
+    border: 1px solid #e1e5e7;
+    margin-top: 10px;
     
 }
 .menu i
@@ -86,10 +90,10 @@ html{
 }
 .menu_1 
 {
-    float: left;
-    width: 30%;
+    width: 33.3%;
     border-right: 1px solid #e1e5e7;
     cursor: pointer;
+    position: relative;
 }
 
 .menu_01
@@ -127,32 +131,32 @@ html{
 .menu_1 i
 {
     top: 42%;
-    left: 26%;
+    right: 4%;
 }
 .menu_1 li
 {
-    border: 1px solid #e1e5e7;
+    border-bottom: 1px solid #e1e5e7;
     cursor: pointer;
     font-size: 14px;
 }
 .menu_2 li
 {
-    border: 1px solid #e1e5e7;
+    border-bottom: 1px solid #e1e5e7;
     cursor: pointer;
     font-size: 14px;
 }
 .menu_3 li
 {
-    border: 1px solid #e1e5e7;
+    border-bottom: 1px solid #e1e5e7;
     cursor: pointer;
     font-size: 14px;
 }
 .menu_2 
 {
-    float: left;
-    width: 30%;
+    width: 33.3%;
     border-right: 1px solid #e1e5e7;
     cursor: pointer;
+    position: relative;
 }
 .menu_02
 {
@@ -163,14 +167,14 @@ html{
 } 
 .menu_2 i
 {
-    left: 56%;
+    right: 4%;
     top: 45%;
 }
 .menu_3 
 {
-    float: left;
-    width: 30%;
+    width: 33.3%;
     cursor: pointer;
+    position: relative;
 }
 .menu_03
 {
@@ -186,14 +190,14 @@ text-align: center;
 .menu_3 i
 {
     top: 45%;
-    right: 7%;
+    right: 4%;
 }
 .information
 {
     width: 100%;
     margin: auto;
     overflow:  auto;
-    height: 445px;
+    height: 672px;
 }
 .information_1
 {
@@ -209,6 +213,9 @@ text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-left: 24px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .information i
 {
