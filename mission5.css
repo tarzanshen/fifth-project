@@ -74,10 +74,11 @@ body{ font-size:62.5%;
     list-style: none;
     position: absolute;
     background-color: white;
-    margin: 0;
     width: 100%;
     border: 1px solid #e1e5e7;
-    margin-top: 10px;
+    line-height: 3;
+    margin-left: -1px;
+    margin-top: 1px;
     
 }
 .menu i
@@ -94,6 +95,7 @@ body{ font-size:62.5%;
     border-right: 1px solid #e1e5e7;
     cursor: pointer;
     position: relative;
+    line-height: 2.2;
 }
 
 .menu_01
@@ -157,6 +159,7 @@ body{ font-size:62.5%;
     border-right: 1px solid #e1e5e7;
     cursor: pointer;
     position: relative;
+    line-height: 2.2;
 }
 .menu_02
 {
@@ -175,6 +178,7 @@ body{ font-size:62.5%;
     width: 33.3%;
     cursor: pointer;
     position: relative;
+    line-height: 2.2;
 }
 .menu_03
 {
